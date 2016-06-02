@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg5681"
+   height="318.89764"
+   width="212.59842">
+  <defs
+     id="defs3" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-733.46455)"
+     id="layer1">
+  <g id="bando">
+    <path
+       id="path36636"
+       d="m 37.139422,932.68183 c -10.3484,0 -18.7349,7.56737 -18.7349,16.90488 0,9.3375 8.3865,16.91872 18.7349,16.91872 0.386,0 0.7677,-0.0208 1.1479,-0.0415 l 139.454988,0 0,-0.0552 c 9.8025,-0.5281 17.5715,-7.87202 17.5715,-16.84964 0,-8.97761 -7.769,-16.30776 -17.5715,-16.83584 l 0,-0.0137 -0.1684,0 c -0.3187,-0.0145 -0.6415,-0.0274 -0.9643,-0.0274 -0.3228,0 -0.6455,0.0128 -0.9643,0.0274 l -137.541588,0 c -0.3194,-0.0145 -0.6409,-0.0274 -0.9643,-0.0274 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.06299210000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.06299210000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 41.385222,936.4051 c -9.7753,0 -17.6975,6.01813 -17.6975,13.444 0,7.42586 7.9222,13.45496 17.6975,13.45496 0.3647,0 0.7253,-0.0164 1.0844,-0.0331 l 131.733688,0 0,-0.0441 c 9.2597,-0.41995 16.5986,-6.26038 16.5986,-13.40003 0,-7.13965 -7.3389,-12.96912 -16.5986,-13.38906 l 0,-0.0111 -0.1591,0 c -0.3012,-0.0114 -0.6059,-0.0221 -0.911,-0.0221 -0.3048,0 -0.6098,0.0104 -0.9109,0.0221 l -129.926088,0 c -0.3017,-0.0114 -0.6055,-0.0221 -0.911,-0.0221 z"
+       id="path36638" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.86787409;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect30621-04"
+       width="211.72836"
+       height="318.02975"
+       x="0.42523354"
+       y="733.51953" />
+    <text
+       id="text3336"
+       y="956.88379"
+       x="106.46133"
+       style="font-weight:bold;font-style:oblique;font-size:22.5px;font-family:'DejaVu Sans';text-anchor:middle">@@@@@@</text>
+
+    <!--
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:100%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold Oblique'"
+         y="956.44476"
+         x="58.879223"
+         id="tspan3338">DJEUNZ</tspan></text>
+    -->
+  </g></g>
+</svg>

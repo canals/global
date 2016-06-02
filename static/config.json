@@ -1,0 +1,62 @@
+{
+  "svgdir" : "./svg",
+
+  "domaine" : {
+    "alimentaire" : "pictos/alimentaire.svg",
+    "cosmetique" : "pictos/cosmetique.svg",
+    "mobilier" : "pictos/mobilier.svg",
+    "techno" : "pictos/technologies.svg",
+    "textile" : "pictos/textile.svg",
+    "auto" : "pictos/automobile.svg",
+    "defaut" : "pictos/automobile.svg"
+  },
+
+  "cible" : {
+    "etudiant": {
+      "picto": "#00ffb3",
+      "typo": "#000000",
+      "bando": "#8dffa7"
+    },
+    "jeune": {
+      "picto": "#ffe600",
+      "typo": "#00b2b2",
+      "bando": "#ffb200"
+    },
+    "menagere": {
+      "picto": "#ffb3b3",
+      "typo": "#b259b2",
+      "bando": "#ffe6ff"
+    },
+    "3age" : {
+      "picto" : "#8ae589",
+      "typo": "#009a00",
+      "bando": "#99ff99"
+    },
+    "enfant" : {
+      "picto" : "#ffff00",
+      "typo" : "#ff00ff",
+      "bando": "#fff381"
+    },
+    "ados" : {
+      "picto" : "#b3ff00",
+      "typo" : "#ff0000",
+      "bando": "#d9ff26"
+    },
+    "defaut" : {
+      "picto" : "#b3ff00",
+      "typo" : "#ff0000",
+      "bando": "#d9ff26"
+    }
+  },
+
+  "esprit" : {
+      "classique" : "textos/classique.svg",
+      "intemporel" : "textos/intemporel.svg",
+      "vintage" : "textos/vintage.svg",
+      "luxe" : "textos/luxe.svg",
+      "sport" : "textos/sport.svg",
+      "contemporain" : "textos/contemporain.svg",
+      "defaut" : "textos/contemporain.svg"
+    }
+
+}

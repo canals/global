@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Global</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <img src="global-logo.svg">
+    <h2>le générateur de cartes</h2>
+</header>
+
+
+<section id="main">
+<form id="main-global-form">
+
+  <div id="inputs">
+    <div id="cartouche-nom" class="cartouche">
+        <h2>ENTREZ LE NOM DE VOTRE MULTINATIONALE</h2>
+        <input type="text" id="main-global-nom" name="nom"  required>
+    </div>
+
+
+    <div id="cartouche-esprit" class="cartouche">
+
+
+    <h2>VOTRE MULTINATIONALE A UN ESPRIT</h2>
+
+        <div><input type="radio"  name="esprit" value="classique" checked required><label>classique</label></div>
+        <div><input type="radio"  name="esprit" value="intemporel" required><label>intemporel</label></div>
+        <div><input type="radio"  name="esprit" value="vintage" required><label>vintage</label></div>
+        <div><input type="radio"  name="esprit" value="luxe" required><label>luxe</label></div>
+        <div><input type="radio"  name="esprit" value="sport" required><label>sport</label></div>
+        <div><input type="radio"  name="esprit" value="contemporain" required><label>contemporain</label></div>
+    </div>
+
+    <div id="cartouche-domaine" class="cartouche">
+    <h2>SON DOMAINE D'ACTIVITE</h2>
+        <div><input type="radio"  name="domaine" value="alimentaire" checked required><label>alimentaire</label></div>
+        <div><input type="radio"  name="domaine" value="cosmetique"  required><label>cosmétiques</label></div>
+        <div><input type="radio"  name="domaine" value="mobilier"  required><label>mobilier</label></div>
+        <div><input type="radio"  name="domaine" value="techno"  required><label>technologies</label></div>
+        <div><input type="radio"  name="domaine" value="textile"  required><label>textile</label></div>
+        <div><input type="radio"  name="domaine" value="auto"  required><label>automobile</label></div>
+
+    </div>
+
+    <div id="cartouche-cible" class="cartouche">
+    <h2>ELLE CIBLE ESSENTIELLEMENT</h2>
+        <div><input type="radio"  name="cible" value="etudiant" checked required><label>etudiant</label></div>
+        <div><input type="radio"  name="cible" value="jeune" required><label>jeune</label></div>
+        <div><input type="radio"  name="cible" value="menagere" required><label>menagère</label></div>
+        <div><input type="radio"  name="cible" value="3age" required><label>3ème age</label></div>
+        <div><input type="radio"  name="cible" value="enfant" required><label>enfant</label></div>
+        <div><input type="radio"  name="cible" value="ados" required><label>ados</label></div>
+    </div>
+
+  </div>
+
+      <button id="generate">GENERER !</button>
+
+</form>
+
+</section>
+<section id="after">
+
+    <div id="after-img" class="cartouche">
+        <!--<img src="file:///Users/canals/.global/output/nenette.svg" id="img-svg">-->
+        <img src="GLOBAL.svg" id="img-svg">
+    </div>
+    <div id="after-cmd" class="cartouche">
+        <div>Le générateur de cartes GLOBAL : choisissez, générez, récupérez, imprimez </div>
+        <ul>
+            <li><a id="dl-svg" href="file:///Users/canals/.global/output/nenette.svg" download>>récupérer le fichier svg</a></li>
+            <li><a id="dl-pdf" href="file:///Users/canals/dev/svg/global-ui/static/../exported/michto.exported.pdf" download>>récupérer le fichier pdf</a></li>
+            <li><a id="dl-png" href="file:///Users/canals/dev/svg/global-ui/static/../exported/michto.exported.png" download>>récupérer le fichier png</a></li>
+        </ul>
+    </div>
+
+</section>
+</body>
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../src/index.js"></script>
+</html>

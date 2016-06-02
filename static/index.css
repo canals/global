@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+div#inputs {
+    display:flex;
+    flex-direction: row;
+    flex-wrap : nowrap;
+    justify-content: space-between;
+    margin-bottom : 30px;
+}
+
+input#main-global-nom {
+    display: block;
+    width:80%;
+    margin:auto;
+    border-top : none;
+    border-left : none;
+    border-right: none;
+    border-bottom: dashed black 2px;
+
+}
+
+div.cartouche {
+    box-sizing: border-box;
+    width: 200px;
+    height: 230px;
+    border: solid black 3px;
+    padding:6px;
+
+}
+
+.cartouche h2 {
+    wdith: 100%;
+    min-height : 50px;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+html {
+    height:100%;
+}
+body {
+    border: solid black 20px;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding:20px;
+
+}
+
+header {
+    margin-bottom: 20px;
+}
+header img {
+    display: block;
+    max-width:100%;
+    margin: auto;
+}
+
+header h2 {
+    width:100%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+button#generate {
+    display: block;
+    box-sizing: border-box;
+    width: 200px;
+    margin-left: 744px;
+    border: solid black 3px;
+    background-color: white;
+    font-size: 1.2em;
+}
+
+section#after {
+    display:flex;
+    flex-direction : row;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: 264px;
+
+}
+div#after-cmd {
+    margin-left: 43px
+
+}
+
+div#after-cmd {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+div#after-cmd ul , div#after-cmd div{
+    width:100%;
+    padding: 20px
+}
+
+div#after-cmd ul {
+    /*display:none;*/
+}
+
+div#after-cmd div {
+    margin-bottom: 10px;
+}
+div#after-cmd a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+div#after-img img {
+    max-height:212px;
+    width:auto;
+    margin: auto;
+    display:block;
+}

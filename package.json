@@ -1,0 +1,13 @@
+{
+  "name": "global-ui",
+  "version": "1.0.0",
+  "description": "le générateur de cartes global avec son ui",
+  "main": "./src/main.js",
+  "devDependencies": {
+    "electron-packager": "^7.0.3",
+    "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}
