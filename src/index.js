@@ -10,7 +10,7 @@
     const fs = require('fs');
     const path=require('path');
 
-    var $ = require('jQuery');
+    var $ = require('jquery');
 /*
     var opt ={
         output : 'output',
@@ -90,7 +90,7 @@
             texte   : nom,
             domaine : $("input:radio[name=domaine]:checked").val(),
             cible   : $("input:radio[name=cible]:checked").val(),
-            exprit  : $("input:radio[name=esprit]:checked").val(),
+            esprit  : $("input:radio[name=esprit]:checked").val(),
             config  : 'static/config.json'
         }
     };

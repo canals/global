@@ -65,6 +65,7 @@ input#main-global-nom {
     border-left : none;
     border-right: none;
     border-bottom: dashed black 2px;
+    font-size: 1.2em;
 
 }
 
@@ -93,6 +94,7 @@ body {
     min-height: 100%;
     box-sizing: border-box;
     padding:20px;
+    font-family: "DejaVu Sans Mono";
 
 }
 
@@ -143,7 +145,8 @@ div#after-cmd {
 }
 div#after-cmd ul , div#after-cmd div{
     width:100%;
-    padding: 20px
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 div#after-cmd ul {
@@ -151,7 +154,8 @@ div#after-cmd ul {
 }
 
 div#after-cmd div {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 0.8em;
 }
 div#after-cmd a {
     text-decoration: none;
